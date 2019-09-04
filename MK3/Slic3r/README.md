@@ -8,7 +8,7 @@
     + [NylonX](#nylonx)
     + [Hollow and spiral vase](#hollow-and-spiral-vase)
     + [Pretty PETG V3](#pretty-petg-v3)
-    + [Pretty PLA V3](#pretty-pla-v3)
+    + [Pretty PLA V4](#pretty-pla-v4)
     + [Pretty Litho PETG](#pretty-litho-petg)
     + [Pretty Litho PLA](#pretty-litho-pla)
     + [MMU Pretty PLA V1.2](#mmu-pretty-pla-v1-2)
@@ -73,11 +73,28 @@ Profile by Chris Warkocki
 
 Pretty PETG V3. Just fixed a couple things with bridging I didn't like in the V2. Will work on the MK2, MK2s, and the MK3 for certain.
 
-### Pretty PLA V3
-Updated August 16, 2018  
+### Pretty PLA V4
+Updated August 23, 2019  
 Profile by Chris Warkocki
 
-Profiles time! I fixed the missing z hop necessary in the Pretty PLA profile so enjoy the refined and fixed version right here right now. It will work for certain on the MK2, MK2s, and the MK3. Nothing crazy in there and is just a nice simple profile with many many refinements.
+Pretty PLA for the year 2019 is here. This profile is specifically for the Prusa MK2s/2.5/2.5s/3/3s printers running stock firmware aka Linear Advance 1.0
+
+But what is it???
+
+Pretty PLA was the groundwork of tons of smart people who all had issues when the MK3 launched. The original profiles in Slic3r:PE were a bit over the top with screaming 200-300mm/s print moves and overall the print quality was less than desirable.
+
+Hundreds of hours went into testing the perfect speeds to reduce certain artifacts the MK3 had more so than other printers like it and even new tests designed by myself like the speed towers and resonance tests all went in to find the best values for an overall safe profile that jammed less, printed a little better, and had the newest advancements. It was a profile of many comprises to not only print well but print it fast enough that it wouldn't take forever for a print to finish.
+
+Heck those advancements inspired all the new Prusa quality profiles that took the framework the community put in and it finally made Prusa Slicer easier for the beginner.
+
+In tradition there are new things here that aren't in other profiles.
+
+1. improved preheating. Some users said that a small hole would form from heating the nozzle close to the bed which was used to prevent oozing. Fixed it by rising the nozzle to 0.6mm off the bed saving it from possible harm. Now you can enjoy running bed calibrations without oozing on the bed and without possibly hurting smooth PEI.
+
+2. vastly improved supports. Let's face it. The stock supports tend to fall over or not work too well for most prints. After much testing in finding a sturdy support structure that also easily comes off the print was tough but it's getting there and it's here in this profile. I will follow up with a small guide to show you how to adjust supports for more detailed prints or prints that just don't need sturdy supports so stay tuned for that.
+3. more tweaks. After thousands of hours per months in prints and looking at user feedback more small adjustments were made and hopefully this means a better overall safe profile for everyone that wants to balance good quality and ease of printing.
+
+Note that you don't need to adjust anything besides layer height between 0.15mm-0.25mm. Just change the layer height and it'll work just fine.
 
 ### Pretty Litho PETG
 Updated September 19, 2018
